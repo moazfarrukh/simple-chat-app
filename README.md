@@ -51,9 +51,7 @@ This is a minimal implementation with the following constraints:
 - No message encryption or security features
 - Single chat room with no private messaging capabilities
 - Simple UI with minimal features
-
-
-## Improvements
+- No read receipts or message status indicators
 
 ## Improvements
 
@@ -61,5 +59,6 @@ Future improvements could include:
 
 - **Enhanced Security**: Implement proper authentication with username/password, JWT tokens, and message encryption
 - **Advanced Features**: Add support for private messaging, multiple chat rooms, and file sharing
+- **Message Status**: Implement read/unread receipts to show when messages are delivered and seen
 - **Responsive Design**: Improve the UI with a responsive design that works well on mobile devices
 - **Scalability**: Implement a more scalable architecture using Redis for session management and message queuing
