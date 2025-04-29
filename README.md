@@ -16,6 +16,16 @@ bun install
 # Start the server
 bun run app.js
 ```
+
+## Accessing the Application
+
+After starting the server, you can access the chat application by opening your browser and navigating to:
+
+```
+http://localhost:3000/index.html
+```
+
+The application will load in your browser where you can enter a username and start chatting.
 ## Architecture Overview
 
 This is a real-time chat application using:
