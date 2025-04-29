@@ -85,9 +85,7 @@ io.on('connection', (socket) => {
 
   socket.on('typing', (username) => {
     socket.broadcast.emit('typing', username);
-  }
-
-  );
+  });
 
   socket.on('stopTyping', (username) => {
 
@@ -122,7 +120,6 @@ io.on('connection', (socket) => {
 
 });
 app.use(express.static('html'));
-
 app.use(express.static('socket.io'));
 
 
@@ -149,4 +146,3 @@ server.listen(PORT, () => {
 });
 
 export default app;
-// Mongoose setu
